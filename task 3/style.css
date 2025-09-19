@@ -1,0 +1,37 @@
+.calculator {
+    box-shadow: 0 10px 30px rgba(249, 180, 180, 0.1);
+    transition: all 0.3s ease;
+}
+.calculator:hover {
+    box-shadow: 0 15px 35px rgba(249, 149, 149, 0.15);
+}
+.btn {
+    transition: all 0.2s ease;
+}
+.btn:hover {
+    transform: translateY(-2px);
+}
+.btn:active {
+    transform: translateY(0);
+}
+.operator-btn {
+    background-color: #3b82f6;
+    color: rgb(255, 253, 253);
+}
+.operator-btn:hover {
+    background-color: #7896d6;
+}
+.equals-btn {
+    background-color: #7fceb3;
+    color: white;
+}
+.equals-btn:hover {
+    background-color: #059669;
+}
+.clear-btn {
+    background-color: #db4646;
+    color: white;
+}
+.clear-btn:hover {
+    background-color: #dc2626;
+}
